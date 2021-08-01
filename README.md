@@ -11,7 +11,7 @@ Hi 我是一名軟體測試工程師
 歡迎一起交流   
 
 -PC版網頁自動化
-[點我](http://blog.csdn.net/guodongxiaren)  
+[點我](https://github.com/DemoAutomationTest/python_code/tree/master/selenium_case/test_case)  
 
 主要運用的語言/套件有  
 **Python、Selenium、Appium、pytest、Allure...**  
