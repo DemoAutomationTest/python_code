@@ -1,0 +1,6 @@
+platformName: Android
+platformVersion: 11
+deviceName: emulator-5554
+noRest: False
+Appium_Server_IP: 127.0.0.1
+Appium_Server_port: 4723
