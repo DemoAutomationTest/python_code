@@ -26,13 +26,13 @@ class Test_transer:
     @pytest.mark.parametrize("amount",[100,1000])
     @allure.title("台幣轉帳_立即交易_轉入本行帳戶_成功")
     def test_001(self,amount):
-        transfer(self.driver,"04629XXXX77 自訂台幣主帳戶",("1","00008XXXX726789 匯豐台灣 滙豐"),amount)
+        transfer(self.driver,"04629XXXXX7 自訂台幣主帳戶",("1","00008XXXX726789 匯豐台灣 滙豐"),amount)
         sleep(2)
     def test_002(self):
-        transfer(self.driver,"04629XXXX77 自訂台幣主帳戶",("2","808","9999XXX3123"),"222")
+        transfer(self.driver,"04629XXXXX7 自訂台幣主帳戶",("2","808","9999XXX3123"),"222")
         sleep(2)
     def test_003(self):
-        transfer(self.driver,"04629XXXX77 自訂台幣主帳戶",("1","000002000XXX522 臺灣銀行 臺銀"),"333")
+        transfer(self.driver,"04629XXXXX7 自訂台幣主帳戶",("1","000002000XXX522 臺灣銀行 臺銀"),"333")
         sleep(2)
 
 
