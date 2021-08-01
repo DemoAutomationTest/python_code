@@ -14,25 +14,25 @@ Hi 我是一名軟體測試工程師
 [點我](http://blog.csdn.net/guodongxiaren)  
 
 主要運用的語言/套件有  
-Python、Selenium、Appium、pytest、Allure  
+**Python、Selenium、Appium、pytest、Allure...**  
 下圖我以網頁版網路銀行轉帳為例  
 解釋自動化測試規劃的架構  
-【操作行為(函數化)】
+### 【操作行為(函數化)】
   - 登入網路銀行    
   - 進入轉帳功能  
   - 輸入轉帳資訊(轉出帳號\轉入帳號\轉出金額...)   
   - 登出網路銀行    
 
-【解說】  
+### 【解說】  
 test_case建立一個pytest架構的檔案  
 在執行案例中呼叫  
 -引用測試資料(如登入帳號從資料表取出)  
 -登入/登出函數  
 -轉帳操作函數(輸入參數有轉出帳戶、轉入帳號、金額)  
 -輸出測試報告  
-優點：  
+### 優點：  
 - 以頁面為單位設計函數，對於大型且多人合作的專案，可以簡化長期維護成本   
 
-缺點：  
+### 缺點：  
 - 初期規劃架構較為費時費工  
 ![image](https://github.com/DemoAutomationTest/python_code/blob/master/test_flow.JPG)
