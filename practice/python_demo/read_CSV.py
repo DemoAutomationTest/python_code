@@ -2,8 +2,7 @@
 讀取CSV檔(使用pandas)
 '''
 import csv
-from Module.AUTO_HELP import Brower
-from time import sleep
+
 
 file=open('.\\case_demo\\screenshot_websit_testdata.csv','r')
 testdata =csv.DictReader(file)

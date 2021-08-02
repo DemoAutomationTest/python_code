@@ -3,6 +3,7 @@ import allure
 import sys,os
 sys.path.append(os.getcwd())
 from Module.base import webdriver_base
+from Module.AUTO_HELP import CSV
 from Module.AUTO_HELP import DB_Link
 
 from selenium_case.test_page.login_out import login, logout
