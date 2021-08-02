@@ -2,7 +2,9 @@
 讀取CSV檔(使用pandas)
 '''
 import csv
-
+import os
+os.chdir('../../')
+print(os.getcwd())
 
 file=open('.\\practice\\python_demo\\screenshot_website\\screenshot_websit_testdata.csv','r')
 testdata =csv.DictReader(file)

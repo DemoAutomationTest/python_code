@@ -2,6 +2,7 @@ import pytest
 import allure
 import sys,os
 sys.path.append(os.getcwd())
+print(os.getcwd())
 from Module.base import webdriver_base
 from Module.AUTO_HELP import DB_Link
 
