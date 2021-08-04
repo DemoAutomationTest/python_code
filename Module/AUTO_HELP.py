@@ -32,7 +32,7 @@ def DB_Link(SQL):
     cursor.execute(SQL)
     row_1 = cursor.fetchone()
     return row_1
-    #new one
+
 
  #取得資料庫中簡訊密碼值,簡訊未產生時間隔5秒查詢10次
 def OTP(verify_code):

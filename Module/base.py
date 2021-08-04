@@ -27,7 +27,7 @@ class webdriver_base:
             啟動指定瀏覽器
         '''
         if Choose_brower == 'Chrome':
-            Chrome=webdriver.Chrome('D:\Python_Code\webdriver\chromedriver.exe')#('D:\Python_Code\webdriver\chromedriver.exe')
+            Chrome=webdriver.Chrome('.\webdriver\chromedriver.exe')#('D:\Python_Code\webdriver\chromedriver.exe')
             return Chrome
         elif Choose_brower =='IE11':
             IE11=webdriver.Ie() #('D:\Python_Code\webdriver\IEDriverServer3.exe')

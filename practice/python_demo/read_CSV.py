@@ -1,13 +1,13 @@
-'''
+"""
 讀取CSV檔(使用pandas)
-'''
+"""
 import csv
 import os
-os.chdir('../../')
+os.chdir("\\python_code")
 print(os.getcwd())
-file=open('.\\practice\\python_demo\\screenshot_website\\screenshot_websit_testdata.csv','r')
-testdata =csv.DictReader(file)
-testdata2 =csv.reader(file)
+file = open('.\\practice\\python_demo\\screenshot_website\\screenshot_websit_testdata.csv','r')
+testdata = csv.DictReader(file)
+testdata2 = csv.reader(file)
 
 for i in testdata2:
     print(i[0])
