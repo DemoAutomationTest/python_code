@@ -2,14 +2,13 @@ import pytest
 import allure
 import sys,os
 sys.path.append(os.getcwd())
-print(os.getcwd())
 from Module.base import webdriver_base
 from Module.AUTO_HELP import CSV
 from Module.AUTO_HELP import DB_Link
-
+from time import sleep
 from selenium_case.test_page.login_out import login, logout
 from selenium_case.test_page.NTD_transfer import transfer
-from time import sleep
+
 test_account=DB_Link("select * from esun_account")
 class Test_transer:
     def setup(self):
