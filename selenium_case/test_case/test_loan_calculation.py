@@ -6,8 +6,8 @@ from Module.base import webdriver_base
 from Module.AUTO_HELP import CSV
 from Module.AUTO_HELP import DB_Link
 from time import sleep
-from selenium_case.test_page.loan_calculation import load_rate_1phase,load_rate_2phase,load_rate_3phase,fill_in
-class loan_calculation:
+from selenium_case.test_page.loan_calculation import PC_load_rate_1phase,PC_load_rate_2phase,PC_load_rate_3phase,fill_in
+class Test_loan_calculation:
     def setup(self):
         self.driver = webdriver_base.Brower('Chrome')
         self.driver.get('https://www.esunbank.com.tw/bank/personal/loan/tools/info/loan-calculation')
@@ -18,10 +18,11 @@ class loan_calculation:
 
     def test_Period_1part(self):
         fill_in(self.driver, '10', '1', '3', '5000')
-        load_rate_1phase(self.driver, '1.11')
+        PC_load_rate_1phase(self.driver, '1.11')
+
     def test_Period_2part(self):
         fill_in(self.driver, '10', '1', '3', '5000')
-        load_rate_2phase(self.driver, '3', '1.11','1.33')
+        PC_load_rate_2phase(self.driver, '3', '1.11','1.33')
 if __name__ =="__main__":
     pytest.main(["-s", ".\\selenium_case\\test_case\\test_loan_calculation.py"])
 
