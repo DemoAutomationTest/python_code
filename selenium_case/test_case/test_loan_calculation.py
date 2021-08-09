@@ -32,15 +32,15 @@ class Test_loan_calculation:
         M_load_rate_3phase(self.driver, '3','7', '1.11','1.33','1.45')
 
     def test_Period_1part_PC(self):
-        fill_in(self.driver,'M', '10', '1', '3', '5000')
+        fill_in(self.driver,'PC', '10', '1', '3', '5000')
         PC_load_rate_1phase(self.driver, '1.11')
 
     def test_Period_2par_PCt(self):
-        fill_in(self.driver,'M', '10', '1', '3', '5000')
+        fill_in(self.driver,'PC', '10', '1', '3', '5000')
         PC_load_rate_2phase(self.driver, '3', '1.11','1.33')
 
     def test_Period_2part_PC(self):
-        fill_in(self.driver,'M', '10', '1', '3', '5000')
+        fill_in(self.driver,'PC', '10', '1', '3', '5000')
         PC_load_rate_3phase(self.driver, '3','7', '1.11','1.33','1.45')
 
 if __name__ =="__main__":
