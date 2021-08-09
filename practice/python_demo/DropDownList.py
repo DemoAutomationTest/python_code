@@ -10,7 +10,7 @@ driver.get("https://www.esunbank.com.tw/bank/about/services/customer/message-boa
 driver.implicitly_wait(3)
 # 透過改變網頁JS將隱藏的select顯示出來
 # https://zhuanlan.zhihu.com/p/97189984
-
+'''hi'''
 js = 'document.querySelectorAll("select")[2].style.display="block";'
 driver.execute_script(js)
 dropdwon=driver.find_element_by_id('salesType')
