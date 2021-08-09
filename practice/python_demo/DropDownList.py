@@ -8,8 +8,8 @@ driver=webdriver_base.Brower("Chrome")
 driver.get("https://www.esunbank.com.tw/bank/about/services/customer/message-board")
 
 driver.implicitly_wait(3)
-# 透過改變網頁JS將隱藏的select顯示出來
-# https://zhuanlan.zhihu.com/p/97189984
+# 透過改變網頁JS將隱藏的select顯示 出來
+#   https://zhuanlan.zhihu.com/p/97189984
 
 js = 'document.querySelectorAll("select")[2].style.display="block";'
 driver.execute_script(js)
