@@ -19,6 +19,7 @@ class Test_loan_calculation:
         sleep(5)
         self.driver.quit()
 
+
     def test_Period_1part_M(self):
         fill_in(self.driver,'M', '10', '1', '3', '5000')
         M_load_rate_1phase(self.driver, '1.11')
