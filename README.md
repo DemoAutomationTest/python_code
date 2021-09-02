@@ -13,21 +13,22 @@ Hi 我是一名軟體測試工程師
 -PC版網頁自動化
 [點我](https://github.com/DemoAutomationTest/python_code/tree/master/selenium_case/test_case)  
 
-主要運用的語言Python
+主要運用的語言
+  -**Python**
 
 其他應用
 
 Test framework
 
-**pytest、Allure** 
+  -**pytest、Allure** 
 
 Web test 
 
-**Selenium**  
+  -**Selenium**  
 
 Mobile test
 
-**Airtest**  
+  -**Airtest**  
 
 下圖我以網頁版網路銀行轉帳為例  
 解釋自動化測試規劃的架構  
