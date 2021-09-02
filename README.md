@@ -16,11 +16,17 @@ Hi 我是一名軟體測試工程師
 主要運用的語言Python
 其他應用
 Test framework
+
 **pytest、Allure** 
+
 Web test 
+
 **Selenium**  
+
 Mobile test
+
 **Airtest**  
+
 下圖我以網頁版網路銀行轉帳為例  
 解釋自動化測試規劃的架構  
 ### 【操作行為(函數化)】
